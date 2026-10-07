@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="VuwSGasIIKNzmxxv7kT2" name="Page-1">
+        <mxGraphModel dx="540" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-4" edge="1" parent="1" source="iAuKsaAR-cwh4NNMVTcw-1" style="edgeStyle=none;html=1;" target="iAuKsaAR-cwh4NNMVTcw-3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-1" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="80" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-2" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="80" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-7" edge="1" parent="1" source="iAuKsaAR-cwh4NNMVTcw-3" style="edgeStyle=none;html=1;" target="iAuKsaAR-cwh4NNMVTcw-6" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Buka Daftar Peralatan" vertex="1">
+                    <mxGeometry height="60" width="120" x="35" y="215" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-8" edge="1" parent="1" source="iAuKsaAR-cwh4NNMVTcw-6" style="edgeStyle=none;html=1;" target="iAuKsaAR-cwh4NNMVTcw-2" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iAuKsaAR-cwh4NNMVTcw-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Lihat Informasi Ketersediaan" vertex="1">
+                    <mxGeometry height="60" width="120" x="35" y="355" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
