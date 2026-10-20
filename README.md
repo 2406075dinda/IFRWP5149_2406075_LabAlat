@@ -15,3 +15,5 @@
 - ⚡ Fun fact **I learn better by building things.**
 
 P2 Unified Modeling Language
+
+P3 Use Case Diagram & Use Case Descripsion
