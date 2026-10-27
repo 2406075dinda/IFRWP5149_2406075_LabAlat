@@ -1,0 +1,153 @@
+<mxfile host="65bd71144e">
+    <diagram id="0gmYEgFd33PiOSwdn6ic" name="Page-1">
+        <mxGraphModel dx="678" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Informasi akademik" vertex="1">
+                    <mxGeometry height="660" width="480" x="410" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-4" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lihat jadwal kuliah" vertex="1">
+                    <mxGeometry height="50" width="100" x="60" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-7" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lihat kalender akademik" vertex="1">
+                    <mxGeometry height="50" width="100" x="60" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-8" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Validasi KRS" vertex="1">
+                    <mxGeometry height="50" width="100" x="20" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-9" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Proses keputusan KRS" vertex="1">
+                    <mxGeometry height="50" width="100" x="330" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-26" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-20" style="edgeStyle=none;html=1;endArrow=open;endFill=0;dashed=1;" target="ORDeUuMbrXhkmhwnXHHi-8" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-27" connectable="0" parent="ORDeUuMbrXhkmhwnXHHi-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.0466" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-20" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ajukan KRS" vertex="1">
+                    <mxGeometry height="50" width="100" x="170" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-43" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-21" style="edgeStyle=none;html=1;endArrow=open;endFill=0;dashed=1;" target="ORDeUuMbrXhkmhwnXHHi-20" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-44" connectable="0" parent="ORDeUuMbrXhkmhwnXHHi-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0153" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-21" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Unduh bukti pengajuan KRS" vertex="1">
+                    <mxGeometry height="50" width="100" x="170" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-22" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="SIA-UC08&amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); text-decoration-line: inherit; background-color: transparent;&quot;&gt;Input nilai mata kuliah&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="70" width="110" x="20" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-24" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Kelola jadwal kuliah" vertex="1">
+                    <mxGeometry height="50" width="100" x="330" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-25" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Kelola data mahasiswa" vertex="1">
+                    <mxGeometry height="50" width="100" x="280" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-39" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;dashed=1;" value="SIA-CO01&amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); text-decoration-line: inherit; background-color: transparent;&quot;&gt;Input nilai mata kuliah&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="70" width="110" x="170" y="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-40" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-39" style="edgeStyle=none;html=1;endArrow=block;endFill=0;dashed=1;" target="ORDeUuMbrXhkmhwnXHHi-22" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-41" connectable="0" parent="ORDeUuMbrXhkmhwnXHHi-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;collaboration&amp;gt;&amp;gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0432" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-68" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-65" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="ORDeUuMbrXhkmhwnXHHi-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-65" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Tambah data mahasiswa" vertex="1">
+                    <mxGeometry height="50" width="100" x="370" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-69" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-66" style="edgeStyle=none;html=1;" target="ORDeUuMbrXhkmhwnXHHi-25" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-66" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ubah data mahasiswa" vertex="1">
+                    <mxGeometry height="50" width="100" x="280" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-70" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-67" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="ORDeUuMbrXhkmhwnXHHi-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-67" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Hapus data mahasiswa" vertex="1">
+                    <mxGeometry height="50" width="100" x="190" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-74" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-71" style="edgeStyle=none;html=1;endArrow=open;endFill=0;dashed=1;" target="ORDeUuMbrXhkmhwnXHHi-73" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-80" connectable="0" parent="ORDeUuMbrXhkmhwnXHHi-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;collaboration&amp;gt;&amp;gt;&amp;gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.1225" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-71" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="SIA-UC09 Lihat KHS" vertex="1">
+                    <mxGeometry height="50" width="100" x="50" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-73" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;dashed=1;" value="SIA-CO02 Lihat KHS" vertex="1">
+                    <mxGeometry height="50" width="100" x="270" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Civitas Akademika" vertex="1">
+                    <mxGeometry height="60" width="30" x="270" y="435" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-13" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-14" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dosen Wali" vertex="1">
+                    <mxGeometry height="60" width="30" x="950" y="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-15" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.006;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" target="ORDeUuMbrXhkmhwnXHHi-7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="569.55" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-28" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-29" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-37" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="284.9421487603306" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-16" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="60" width="30" x="270" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-38" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="284.9421487603306" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dosen" vertex="1">
+                    <mxGeometry height="60" width="30" x="270" y="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-36" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-23" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin Akademik" vertex="1">
+                    <mxGeometry height="60" width="30" x="940" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-32" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.022;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-33" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-34" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-23" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-72" edge="1" parent="1" source="ORDeUuMbrXhkmhwnXHHi-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="ORDeUuMbrXhkmhwnXHHi-71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

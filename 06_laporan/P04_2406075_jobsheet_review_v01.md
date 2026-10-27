@@ -1,0 +1,8 @@
+| No. | Temuan | Perbaikan yang diperlukan | Alasan |
+|---|---|---|---|
+| 1 | Generalisasi aktor belum sesuai. | Hubungkan aktor Mahasiswa dan Dosen sebagai aktor khusus dari Civitas Akademika. | Mahasiswa dan Dosen mewarisi fungsi umum untuk melihat kalender akademik. |
+| 2 | Generalisasi use case belum sesuai. | Hubungkan SIA-UC11 Tambah Data Mahasiswa, SIA-UC12 Ubah Data Mahasiswa, dan SIA-UC13 Hapus Data Mahasiswa ke SIA-UC10 Kelola Data Mahasiswa sebagai use case umum. | Ketiga use case tersebut merupakan bentuk khusus dari pengelolaan data mahasiswa. |
+| 3 | Realisasi kolaborasi belum sesuai. | Pastikan kolaborasi Input Nilai Mata Kuliah merealisasikan SIA-UC08 dan kolaborasi Lihat KHS merealisasikan SIA-UC09. | Nama kolaborasi harus sesuai dengan use case yang direalisasikan. |
+| 4 | Hak akses input nilai belum dibatasi sesuai ketentuan. | Pastikan hanya dosen pengampu mata kuliah yang dapat menginput nilai dan nilai yang tidak valid ditolak. | Input nilai hanya boleh dilakukan oleh dosen pengampu dan harus mengikuti ketentuan nilai yang berlaku. |
+| 5 | Ketentuan tampilan KHS belum sesuai. | Pastikan KHS hanya menampilkan nilai yang sudah dipublikasikan. | Nilai yang belum dipublikasikan tidak boleh ditampilkan pada KHS. |
+| 6 | Ketentuan penghapusan data mahasiswa belum sesuai. | Pastikan data mahasiswa hanya dapat dihapus jika tidak memiliki data akademik aktif. | Data mahasiswa yang masih memiliki data akademik aktif tidak boleh dihapus. |
