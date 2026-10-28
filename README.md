@@ -19,3 +19,5 @@ P2 Unified Modeling Language
 P3 Use Case Diagram & Use Case Descripsion
 
 P4 Use Case Diagram Lanjutan : Generalization Dan Collaboration
+
+PERTEMUAN 5 SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
