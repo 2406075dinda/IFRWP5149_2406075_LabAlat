@@ -1,5 +1,5 @@
 ID artefak        : P05
-Judul             : Penulisan relasi generalization dan collaboration
+Judul             : Skenario Use Case: Dari Diagram ke Langkah Kegiatan
 Pertemuan         : 05
 Sumber skenario   : Modul
 Jenis/status      : use case diagram/ relasi

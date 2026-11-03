@@ -20,4 +20,4 @@ P3 Use Case Diagram & Use Case Descripsion
 
 P4 Use Case Diagram Lanjutan : Generalization Dan Collaboration
 
-PERTEMUAN 5 SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
+P5 Skenario Use Case: Dari Diagram ke Langkah Kegiatan
