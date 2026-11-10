@@ -1,5 +1,3 @@
-# Review Jobsheet Pertemuan 6 — SIA
-
 | No. | Temuan | Perbaikan yang Diperlukan | Alasan |
 |---|---|---|---|
 | 1 | Nama action pada diagram awalnya memakai kata dari soal, belum sama dengan bunyi langkah tabel P05 (SIA-UC08 dan SIA-UC09). | Menyamakan nama action dengan langkah P05: Mengisi nilai mahasiswa pada kolom nilai, Menyimpan nilai, Melengkapi nilai yang masih kosong, Melihat KHS. | Agar setiap action tertelusur ke langkah tabel skenario P05. |
