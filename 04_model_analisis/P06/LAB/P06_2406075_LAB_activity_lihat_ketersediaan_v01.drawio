@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="QE5KJftyVIVwVpYcWWQU" name="Activity Diagram Peminjaman">
+        <mxGraphModel dx="839" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-2" parent="1" style="swimlane;html=1;startSize=30;align=center;" value="Peminjaman" vertex="1">
+                    <mxGeometry height="780" width="260" x="155" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-3" parent="-CggAwhk0k0W6BYkHR-j-2" style="ellipse;fillColor=#000000;strokeColor=#000000;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="125" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-4" parent="-CggAwhk0k0W6BYkHR-j-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Membuka fungsi Lihat Ketersediaan&#xa;Peralatan" vertex="1">
+                    <mxGeometry height="55" width="190" x="45" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-11" edge="1" parent="-CggAwhk0k0W6BYkHR-j-2" source="-CggAwhk0k0W6BYkHR-j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-4">
+                    <mxGeometry relative="1" x="0.0222" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-5" parent="1" style="swimlane;html=1;startSize=30;align=center;" value="Sistem" vertex="1">
+                    <mxGeometry height="780" width="270" x="415" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-6" parent="-CggAwhk0k0W6BYkHR-j-5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan daftar peralatan beserta&#xa;status ketersediaannya" vertex="1">
+                    <mxGeometry height="55" width="190" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-7" parent="-CggAwhk0k0W6BYkHR-j-5" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Peralatan&#xa;tersedia?" vertex="1">
+                    <mxGeometry height="60" width="120" x="75" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-8" parent="-CggAwhk0k0W6BYkHR-j-5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan pesan tidak ada&#xa;peralatan yang tersedia" vertex="1">
+                    <mxGeometry height="55" width="190" x="40" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-9" parent="-CggAwhk0k0W6BYkHR-j-5" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="40" width="50" x="110" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-10" parent="-CggAwhk0k0W6BYkHR-j-5" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="120" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-13" edge="1" parent="-CggAwhk0k0W6BYkHR-j-5" source="-CggAwhk0k0W6BYkHR-j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-14" edge="1" parent="-CggAwhk0k0W6BYkHR-j-5" source="-CggAwhk0k0W6BYkHR-j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-8" value="[tidak tersedia]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-15" edge="1" parent="-CggAwhk0k0W6BYkHR-j-5" source="-CggAwhk0k0W6BYkHR-j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-9" value="[tersedia]">
+                    <mxGeometry relative="1" x="0.2603" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="245" y="330"/>
+                            <mxPoint x="245" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-16" edge="1" parent="-CggAwhk0k0W6BYkHR-j-5" source="-CggAwhk0k0W6BYkHR-j-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-17" edge="1" parent="-CggAwhk0k0W6BYkHR-j-5" source="-CggAwhk0k0W6BYkHR-j-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-CggAwhk0k0W6BYkHR-j-12" edge="1" parent="1" source="-CggAwhk0k0W6BYkHR-j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" target="-CggAwhk0k0W6BYkHR-j-6">
+                    <mxGeometry relative="1" x="0.0041" as="geometry">
+                        <mxPoint x="100" y="217.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
