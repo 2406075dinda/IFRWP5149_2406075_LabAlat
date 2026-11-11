@@ -23,3 +23,5 @@ P4 Use Case Diagram Lanjutan : Generalization Dan Collaboration
 P5 Skenario Use Case: Dari Diagram ke Langkah Kegiatan
 
 P6 Activity Diagram : Dari Skenario ke Alur Aktivitas
+
+P7 : Assessment

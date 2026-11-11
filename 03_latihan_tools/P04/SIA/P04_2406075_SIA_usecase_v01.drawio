@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="0gmYEgFd33PiOSwdn6ic" name="Page-1">
-        <mxGraphModel dx="678" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1382" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="ORDeUuMbrXhkmhwnXHHi-7" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lihat kalender akademik" vertex="1">
                     <mxGeometry height="50" width="100" x="60" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="ORDeUuMbrXhkmhwnXHHi-8" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Validasi KRS" vertex="1">
+                <mxCell id="ORDeUuMbrXhkmhwnXHHi-8" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Unduh bukti pengajuan KRS" vertex="1">
                     <mxGeometry height="50" width="100" x="20" y="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="ORDeUuMbrXhkmhwnXHHi-9" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Proses keputusan KRS" vertex="1">
@@ -29,17 +29,6 @@
                 </mxCell>
                 <mxCell id="ORDeUuMbrXhkmhwnXHHi-20" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ajukan KRS" vertex="1">
                     <mxGeometry height="50" width="100" x="170" y="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="ORDeUuMbrXhkmhwnXHHi-43" edge="1" parent="ORDeUuMbrXhkmhwnXHHi-1" source="ORDeUuMbrXhkmhwnXHHi-21" style="edgeStyle=none;html=1;endArrow=open;endFill=0;dashed=1;" target="ORDeUuMbrXhkmhwnXHHi-20" value="">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="ORDeUuMbrXhkmhwnXHHi-44" connectable="0" parent="ORDeUuMbrXhkmhwnXHHi-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
-                    <mxGeometry relative="1" x="-0.0153" y="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="ORDeUuMbrXhkmhwnXHHi-21" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Unduh bukti pengajuan KRS" vertex="1">
-                    <mxGeometry height="50" width="100" x="170" y="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="ORDeUuMbrXhkmhwnXHHi-22" parent="ORDeUuMbrXhkmhwnXHHi-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="SIA-UC08&amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); text-decoration-line: inherit; background-color: transparent;&quot;&gt;Input nilai mata kuliah&lt;/span&gt;" vertex="1">
                     <mxGeometry height="70" width="110" x="20" y="480" as="geometry"/>

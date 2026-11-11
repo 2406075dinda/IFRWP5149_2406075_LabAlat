@@ -48,8 +48,7 @@ tugas ini.
 | SIA-UC01 | Lihat Jadwal Kuliah | Mahasiswa | SIA-R01 | Tetap |
 | SIA-UC02 | Kelola Jadwal Kuliah | Admin Akademik | SIA-R02 | Tetap |
 | SIA-UC03 | Ajukan KRS | Mahasiswa | SIA-R03 | Tetap |
-| SIA-UC04 | Validasi KRS | Sistem | SIA-R04 | Tetap |
-| SIA-UC05 | Unduh Bukti Pengajuan KRS | Mahasiswa | SIA-R05 | Tetap |
+| SIA-UC04 | Unduh bukti pengajuan KRS | Sistem | SIA-R04 | Tetap |
 | SIA-UC06 | Proses Keputusan KRS | Dosen Wali | SIA-R06 | Tetap |
 | SIA-UC07 | Lihat Kalender Akademik | Civitas Akademika | SIA-R07 | Baru |
 | SIA-UC08 | Input Nilai Mata Kuliah | Dosen | SIA-R08, SIA-R12 | Baru |
